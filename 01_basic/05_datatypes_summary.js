@@ -42,7 +42,41 @@ const myFunction = function(){
 
     console.log("Hello Mukul Kadal")
 }
-myFunction()
+// myFunction()
+
+
+
+// *********************************************************************************************************
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+// Stack Exmaple...
+
+let myYouTubeName = " Mukul kadal"
+
+let newYouTubeName = myYouTubeName
+
+newYouTubeName = "Mkadal"
+
+// console.log(myYouTubeName);
+// console.log(newYouTubeName);
+
+
+let userOne = {
+    email: "user@google.com",
+    pass: "nkadal@2324"
+}
+
+let userTwo = userOne
+
+userTwo.email = "mkkadal@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
 
 
 
